@@ -6,8 +6,8 @@ jobs:
   test:
     runs-on: ubuntu-latest
     steps:
-     - uses: action/checkout@v4
+     - uses: action/checkout@v4 
      - run : 
-        node -v
+        node -v 
        
     
